@@ -17,7 +17,7 @@ Este é um projeto open-source com o objetivo de estruturar uma aplicação de c
 
 1. Clonar o repositório:
 git clone https://github.com/EvertonMartinsAraujo/modelsell.git
-cd modelsell
+cd api-modelsell
 
 2. Instalar dependências do Laravel e Vue
 composer install
