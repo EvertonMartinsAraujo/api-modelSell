@@ -25,8 +25,10 @@ npm install
 npm run build
 
 3. Configurar variáveis de ambiente
-Copie o arquivo ou renomeie .env.exemplo para .env
-Edite as seguintes variáveis para configurar a conexão com seu banco MySQL:
+3.1. Copie o arquivo ou renomeie .env.exemplo para .env
+cp .env.exemplo .env
+
+3.2. Edite as seguintes variáveis para configurar a conexão com seu banco MySQL:
 DB_DATABASE=nomedobanco
 DB_USERNAME=seu_usuario
 DB_PASSWORD=sua senha
@@ -37,10 +39,13 @@ php artisan jwt:secret
 php artisan migrate
 
 
-4.5. OPCIONAL: Alimentar as tabelas com dados fictícios para testes
+5.Alimentar as tabelas com dados fictícios para testes
 php artisan db:seed
 Isso criará alguns usuários e produtos, consulte as tabelas em caso de duvidas
 
+
+****ATENÇÃO*****
+Se não executar o item 5 será necessário criar o usuário diretamente no banco para conseguir logar na aplicação
 
 ############ Executar aplicação ############
 5. Execute
