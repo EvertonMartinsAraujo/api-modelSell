@@ -33,6 +33,7 @@ DB_PASSWORD=sua senha
 
 4. Rodar as migrations para criação do schema e tabela no banco de dados
 php artisan migrate
+php artisan key:generate
 
 4.5. OPCIONAL: Alimentar as tabelas com dados fictícios para testes
 php artisan db:seed
@@ -44,7 +45,8 @@ Isso criará alguns usuários e produtos, consulte as tabelas em caso de duvidas
 php artisan serve
 
 
-
+Você poderá acessar a aplicação no navegador pelo link
+http://localhost:8000/
 
 
 ############ Sobre o projeto ############
