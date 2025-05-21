@@ -31,9 +31,11 @@ DB_DATABASE=nomedobanco
 DB_USERNAME=seu_usuario
 DB_PASSWORD=sua senha
 
-4. Rodar as migrations para criação do schema e tabela no banco de dados
-php artisan migrate
+4. Gerar as Keys e rodar as migrations para criação do schema e tabela no banco de dados
 php artisan key:generate
+php artisan jwt:secret
+php artisan migrate
+
 
 4.5. OPCIONAL: Alimentar as tabelas com dados fictícios para testes
 php artisan db:seed
