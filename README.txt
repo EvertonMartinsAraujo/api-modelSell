@@ -48,12 +48,12 @@ Isso criará alguns usuários e produtos, consulte as tabelas em caso de duvidas
 Se não executar o item 5 será necessário criar o usuário diretamente no banco para conseguir logar na aplicação
 
 
-6.Crie um link de conexão ao storage a pasta public, para que as imagens upadas fiquem acessíveis e visíveis
+6.Crie um link de conexão do storage a pasta public, para que as imagens upadas fiquem acessíveis e visíveis
 php artisan storage:link
 
 
 ############ Executar aplicação ############
-5. Execute
+7. Execute
 php artisan serve
 
 
